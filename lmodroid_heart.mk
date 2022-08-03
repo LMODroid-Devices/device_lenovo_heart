@@ -7,14 +7,14 @@
 $(call inherit-product, device/lenovo/heart/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := heart
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo L78032
-PRODUCT_NAME := lineage_heart
+PRODUCT_NAME := lmodroid_heart
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 

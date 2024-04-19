@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_heart.mk
+    $(LOCAL_DIR)/lmodroid_heart.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_heart-user \
-    lineage_heart-userdebug \
-    lineage_heart-eng
+    lmodroid_heart-user \
+    lmodroid_heart-userdebug \
+    lmodroid_heart-eng
